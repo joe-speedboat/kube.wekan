@@ -9,6 +9,8 @@
   * DEFAULT_AUTHENTICATION_METHOD: ldap
   * Does not have any effect
 
+## HowTo Setup
+```
 genpasswd ()
 { 
     local l=$1;
@@ -58,3 +60,4 @@ kubectl create namespace $NS
 kubectl config set-context --current --namespace=$NS
 
 helm install wekan wekan/wekan -f myvalues.yaml
+```
