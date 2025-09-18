@@ -1,6 +1,6 @@
 # Setup Wekan on k3s with Helm
 
-## BUGS in v7.94 (lat4est)
+## BUGS in v7.94 (latest)
 * Admin Panel > Layout
   * Display Authentication Method: No
   * Default Authentication Method: LDAP
