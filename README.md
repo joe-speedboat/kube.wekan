@@ -60,5 +60,6 @@ NS=wekan
 kubectl create namespace $NS
 kubectl config set-context --current --namespace=$NS
 
+helm repo add wekan https://wekan.github.io/charts
 helm install wekan wekan/wekan -f myvalues.yaml
 ```
